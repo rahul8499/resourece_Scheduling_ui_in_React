@@ -1,0 +1,69 @@
+.inputcontainer{  
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: auto;
+  margin-left: 2rem;
+}
+.inputLable{
+  margin:0.50rem;
+  margin-left:0 ;
+}
+
+.input{
+  width: 30vw;
+  height: 3rem;
+}
+.error-text{
+  color: red;
+}
+.btncontainer{
+  margin-left: 2rem;
+}
+.btn{
+  border: 1px solid grey;
+  width:10rem;
+  margin: 1rem;
+  margin-left: 0;
+  height: 3rem;
+  color: white;
+  
+}
+
+
+/* Custom Time Picker Container */
+.custom-time-picker {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Start Time Container */
+.start-time {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust spacing between start and end time */
+}
+
+/* End Time Container */
+.end-time {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust spacing between start and end time */
+}
+
+/* Time Picker Select */
+.custom-time-picker select {
+  margin-right: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+}
+
+/* Time Picker Label */
+.custom-time-picker label {
+  margin-right: 5px;
+}
+
+
+
+/* @import url("https://cdn.syncfusion.com/ej2/material.css") */

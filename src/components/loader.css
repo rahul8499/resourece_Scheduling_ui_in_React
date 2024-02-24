@@ -1,0 +1,83 @@
+
+
+.loader-overlay {
+  position: fixed;  
+  /* margin-top: 64px; */
+  top: 0;
+  /* top: 50%;
+  left: 50%; */
+  width: 100%;
+  height: 100%;
+  /* transform: translate(100%, 100%); */
+  /* z-index: 999;  */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1000; 
+  
+
+}
+/* .loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 20;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1000; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+  
+  .loader-container {
+    display: inline-block; /* Display the loader and message inline */
+    text-align: center;
+  }
+ 
+  
+  .loader {
+    border: none; /* Remove the border */
+    border-top: 12px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 2vw;
+    
+  }
+  
+  /* .loader {
+    border: 12px solid #f3f3f3; 
+    border-top: 12px solid #3498db; 
+    border-radius: 50%;
+    width: 70px; 
+    height: 70px; 
+    animation: spin 1s linear infinite;
+    margin-bottom: 2vw;
+  } */
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .loader-message {
+    
+    font-size: 18px;
+    /* background-color: white; */
+    background-color: rgba(255, 255, 255, 0.7); 
+    font-weight: bold;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding: 20px; 
+    color: black;
+    width: 80%;
+    height: 50%;
+    /* left: 50; */
+    margin-left: 9vw;
+
+
+    
+  }
+  

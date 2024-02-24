@@ -1,0 +1,137 @@
+/* .inputLable{
+  margin:0.50rem;
+  margin-left:0 ;
+  font-weight: bold;
+} */
+.validationcolor{
+  color: red
+}
+
+
+.no-border {
+  border: none;
+}
+.cancebtn {
+
+  /* background-color: red; */
+  /* color: #6c7ac9; */
+  background-color:#b5b9d3 ;
+  color: white;
+
+}
+
+
+.custom-select {
+  border: none;
+  outline: none;
+}
+
+.custom-select__control {
+  box-shadow: none;
+}
+
+
+
+  
+.inputcontainer{
+    
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: auto;
+  margin-left: 2rem;
+  
+}
+.inputLable{
+  margin:0.50rem;
+  margin-left:0 ;
+}
+
+.input{
+  width: 30vw;
+  height: 3rem;
+}
+.error-text{
+  color: red;
+}
+.btncontainer{
+  margin-left: 2rem;
+}
+.btn{
+  /* border: 1px solid grey; */
+  /* width:5rem; */
+  /* margin: 1rem; */
+  /* margin-left: 0; */
+  /* height: 2rem; */
+  /* color: white; */
+  
+}
+.dropdown {
+  margin-bottom: 20px;
+}
+
+.inputLable {
+  /* color: #333; */
+  font-weight: bold;
+}
+
+.input {
+  padding: 8px;
+  /* border-radius: 4px; */
+}
+
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  background-color: #e0e7ff;
+  /* border-radius: 4px; */
+  padding: 4px 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.chip-remove-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  background-color: #ccc;
+  /* border-radius: 50%; */
+  margin-left: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #fff;
+  border: none;
+}
+
+
+/* HorizontalScrollMenu.css */
+
+.scroll-menu {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.menu-items {
+  display: inline-flex;
+}
+
+.menu-item {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  min-width: 100px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+

@@ -1,0 +1,22 @@
+/* CSS */
+.logout-icon-container {
+    position: relative;
+  }
+  
+  .title-text {
+    position: absolute;
+    bottom: -90%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff; /* Set your text color */
+    padding: 2px 8px; /* Adjust padding as needed */
+    opacity: 0;
+    transition: opacity 0.2s;
+   
+  }
+  
+  .logout-icon-container:hover .title-text {
+    opacity: 1;
+    
+  }
+  

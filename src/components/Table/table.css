@@ -1,0 +1,80 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto repeat(3, 1fr);
+  gap: 10px;
+}
+
+.relative {
+  position: relative;
+}
+
+.menu-box {
+  position: absolute;
+  top: 100%;
+  right: 5;
+  background-color: #fff;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);  */
+  border: 1px solid #ccc;
+  /* padding: 8px; */
+  z-index: 10;
+  border-radius: 8px;
+}
+
+
+.text-green-700 {
+  color: #4caf50;
+}
+
+.text-red-700 {
+  color: #f44336;
+}
+
+.menu-box {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.custom-button {
+  color: rgb(26, 25, 25);
+  padding: 2px 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.custom-button:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.tooltip {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(16, 15, 15);
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  position: absolute;
+  bottom: -40px;
+  z-index: 3;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.font-serif.relative:hover .plus-icon {
+  display: inline-block;
+}
+
+.font-serif.relative:hover .time-text {
+  display: none;
+}
+

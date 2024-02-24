@@ -1,0 +1,83 @@
+.cardbody {
+  width: 5rem;
+  height: 4rem;
+  /* margin-right: 1rem; */
+  background-color: bisque;
+}
+
+.faculty-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 8px;
+  box-sizing: border-box;
+  border: 2px solid black;
+
+}
+
+.faculty-card__image {
+  width: 25px;
+}
+
+.faculty-card__name {
+  margin-top: 4px;
+  font-size: 12px;
+  text-align: center;
+}
+/* const subjectCodeColors = {
+  E: "#FFD3B0 ",
+  S: "#F2D7D9",
+  H: "#B1D7B4",
+  M: "#D6836F",
+  C: "#E7B96E",
+  P: "#85BBCC",
+  B: "		#0caba4",
+}; */
+
+
+.vertical-line {
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: rgba(233, 227, 227, 0.5); /* Light gray with 50% opacity */
+  margin-right: 16px;
+   padding-top: 20px;
+   
+  
+}
+
+
+
+
+
+
+.tooltip {
+  position: relative;
+  /* display: inline-block; */
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(16, 15, 15);
+  color: white;
+  text-align: center;
+  padding:  0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  bottom: -30px; /* Adjust this value based on your preference */
+
+  z-index: 3;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
